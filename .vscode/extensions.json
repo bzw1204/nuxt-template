@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "xpo.local-history",
+        "mikestead.dotenv",
+        "jaluik.dot-log",
+        "naumovs.color-highlight",
+        "dbaeumer.vscode-eslint",
+        "wix.vscode-import-cost",
+        "esbenp.prettier-vscode",
+        "Vue.vscode-typescript-vue-plugin",
+        "Vue.volar",
+        "hollowtree.vue-snippets",
+        "shenjiaolong.vue-helper"
+    ]
+}

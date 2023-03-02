@@ -1,0 +1,57 @@
+{
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    // 开启 vscode 文件路径导航
+    "breadcrumbs.enabled": true,
+    // 排除某些文件不显示在文件路径导航中
+    "files.exclude": {
+        "**.idea": true,
+        "**.lh": true,
+        "**/dist": true
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }, // 设置统一的行结尾样式
+    "prettier.insertPragma": true,
+    "prettier.vueIndentScriptAndStyle": true,
+    "prettier.printWidth": 160,
+    "prettier.singleQuote": true,
+    "prettier.semi": false,
+    "prettier.trailingComma": "none",
+    "prettier.arrowParens": "avoid", // 箭头函数参数括号，仅有一个参数时可以省略
+    "prettier.requireConfig": true,
+    "git.mergeEditor": true,
+    "git.logLevel": "Error",
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
+    "[less]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[html]": {
+        "files.insertFinalNewline": true,
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "html.format.indentHandlebars": true,
+    "html.format.wrapAttributes": "aligned-multiple",
+    "volar.icon.preview": true,
+    "cSpell.words": [
+        "apprestart",
+        "doption",
+        "echart",
+        "echarts",
+        "marginleft",
+        "popconfirm",
+        "Visibles",
+        "VITE"
+    ],
+    "eslint.validate": [
+        "javascript",
+        "vue",
+        "html"
+    ]
+}
